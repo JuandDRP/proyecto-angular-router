@@ -9,7 +9,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-store-router": {
+    "proyecto-angular-router": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -78,10 +78,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "my-store-router:build:production"
+              "browserTarget": "proyecto-angular-router:build:production"
             },
             "development": {
-              "browserTarget": "my-store-router:build:development"
+              "browserTarget": "proyecto-angular-router:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -89,7 +89,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "my-store-router:build"
+            "browserTarget": "proyecto-angular-router:build"
           }
         },
         "test": {
